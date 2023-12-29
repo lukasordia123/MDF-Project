@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+  crossorigin="anonymous"
+/> 
+   <link rel="stylesheet" href="./style.css">
+</head>
+<body >
+    <header id="change">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">მთავარი გვერდი</a>
+          <button class="navbar-toggler" id="button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./posts.html">პოსტები</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./AddPosts.html">პოსტის შექმნა</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./Game.html">თამაში</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        აქაუნთი
+                    </button>
+                    <ul class="dropdown-menu">
+                      <div >
+                        <li><a class="dropdown-item" id="Registration" href="./SignUp.html">რეგისტრაცია</a></li>
+                        <li><a class="dropdown-item" id="LogIn" href="./LogIn.html">ავტორიზაცია</a></li>
+                        <li><a class="dropdown-item" id="LogOut" href="./LogIn.html">გასვლა</a></li>
+                      </div>
+                    </ul>
+                  </div>
+              </li>
+            </ul>
+            <span class="navbar-text" id="MAB" >
+              MIB
+            </span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="carusele">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="opacity-75"><a href="./Game.html"><img src="./368174183_1572980426773247_1822384924837143844_n.jpg" width="730" height="530" style="border-radius: 50px ;" class="d-block w-100" alt="..."></a> 
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>ფაქტორიალი</h5>
+                <p >ფაქტორიალი არის სოფელი,სადაც ხალხი ჰარმოანიაში ცხოვრობდა მანამ სანამ ბრბომ ფაქტების დამახინჯება დაიწყო და მედია წიგნიერების მცნება გაუფასურდა.ამ ყველაფრის შედეგად საზოგადოება ზომბდება და სოფლის გადარჩენა ევალება მოთამაშეს, რომელმაც მისი სწორი პასუხებით უნდა გადაარჩინოს ქალაქი </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="opacity-50"><a href="./AddPosts.html"><img src="https://mockupsfreebies.com/wp-content/uploads/2019/09/09Free-Facebook-Post-Mockup-by-Marina-Dillaco.jpg" width="730" height="530" style="border-radius: 50px ;" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>მასწავლებლებისათვის პოსტების დაგენერირება</h5>
+                <p  >მასწავლებლებისათვის პოსტების გენერირების მექანიზმი, რომლითაც შეეძლებათ, რომ მარტივად აუხსნან დეზინფორმაცის,ტროლების,ბოტებისა და  სხვა თემებთან დაკავშირებული მაგალითები </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="opacity-50"><a href="#"><img src="https://scontent.ftbs5-2.fna.fbcdn.net/v/t1.15752-9/387473095_684160400471579_7281762540122170888_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=M2ghsbvtNukAX-qt9Ge&_nc_ht=scontent.ftbs5-2.fna&oh=03_AdTWEp3iUWzvtLEtm6W8JXbizhqpbw_FXJPWmNeLiLtF1g&oe=65947094" height="530" style="border-radius: 50px ;" class="d-block w-100" alt="..."></a>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>შევიხედოთ მედია წიგნიერების სამყაროში დისნეისთან ერთად</h5>
+                <p >პარალელები ანიმაციებთან რომლებიც ბავშვებს დაეხმარება მარტივად გაიგონ თუ რა არის მედია წიგნიერების არსი და ის პრობლემები რასაც ყოველდღიურად ვაწყდებით ინტერნეტში</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </main>
+    <div class="dashdborder">
+
+    </div>
+    <section id="Bottom">
+      <div class="Info1">
+        <div class="Text1" >
+          <div class="Center"><h1>სიძულვილის ენა</h1></div>
+          <p class="textp">სიძულვილის ენის ამოცნობა შემდეგი მახასიათებლებით არის შესაძლებელი:გაუცხოება(ისინი ჩვენ წინააღმდეგ),ობიექტი სუბიექტის ნაცვლად(როდესაც სარედაქციო პოლიტიკა უარჰყოფს სხვადასხვა ჯგუფების წარმომადგენელთა მოსაზრებებს რომელთაც აშუქებენ,ამ შემთხვევაში ისინი არიან ჟურნალისტური მასალის განსჯის ობიექტები და არა სუბიექტები.),დაშინების ტაქტიკა,ისტორიული ტრამვის გაღვივება(წარსულის მოვლენების და პრობლემების თანამედროვე კონტექსტში გადმოტანა და სუბიექტის საწინააღმდეგოდ ემოციურ ნიადაგზე შუღლის გაღვივება.),ვიქტიმიზაცია(მსხვერპლად წარმოჩენა),გენეტიკური უპირატესობის ღვთის/ბუნების ნებით ახსნა(მაგალითად რასისტული ჯგუფები),ფსევდო-მეცნიერება და ანეკდოტური მტკიცებულებები(მაგალითად გვერდები რომლებიც მეცნიერულ თეორიებს ან ანეკდოტურ თეორიებს ემყარებიან),ჯგუფური სოლიდარობის შექმნა("საერთო მტერი").</p>
+      </div>
+
+      <div class="Text2">
+        <div class="Center"><h1>პირადი ცხოვრების ხელშეუხებლობა</h1></div>
+        <p class="textp">პირადი ცხოვრების ხელშეუხებლობა სიტყვა ინგლისური ტერმინი "Privacy"-დან გამომდინარეობს. პირადი ცხოვრების ხელშეუხებლობის გაშუქებისას ჟურნალისტებმა შემდეგი სტანდარტები უნდა გაითვალისწინონ:დაიცვან ბალანსი ინფორმაციის თავისუფლებასა და ადამიანის პირად ცხოვრებაში ჩარევის ზღვარს შორის,გამიჯნონ საჯარო და კერძო სივრცე,არ შეიჭრან სხვის მწუხარებაში,დაიცვან არასრულწლოვანთა ინტერესები. ბალანსის დარღვევა პირადი ცხოვრების ხელშეუხებლობასა და ინფორმაცის მოპოვების უფლებას შორის შეიძლება გამართლებული იყოს მხოლოდ მაშინ თუ საზოგადოების კანონიერი ინტერესების დაცვის სიკეთე აღემატება მიყენებულ ზიანს და თუ საზოგადოების კანონიერი ინტერესების დაცვა არის ამ მიზნის მიღწევის თანაფარდობითი საშუალება.</p>
+      </div>
+    </div>
+    </div>
+
+      <div class="Info2">
+        <div class="Text2">
+          <div class="Center"><h1>კიბერ უსაფრთხოება</h1></div>
+          <p class="textp">ტექნოლოგიურმა პროგრესმა წვდომა მოგვცა ძალიან ბევრ ინფორმაციასთან, რამაც ჩვენი ცხოვრება გაამარტივა,თუმცა ამავდროულად მოიტანა ისეთი საფრთხეები როგორიც არის პროგრამული საფრთხეები და ინტერნეტ თაღლითობა.პროგრამული სახეები ძირითადად მავნე პროგრამებს უკავშირდება, თუნდაც ვირტუალური ფულის გამომუშავებას.მავნე პროგრამა არის კომპიუტერული კოდი ან აპლიკაცია რომელთაც შეუძლიათ თქვენი ინფორმაციის მოპარვა და თქვენი მოწყობილობისთვის ზიანის მიყენება.ზიანი შეიძლება მოიცავდეს თქვენი ფაილების წაშლას,პირადი ინფორმაციის მოპარვას,კონტროლს თქვენს კომპიუტერზე და ჩაწერილ პროგრამებზე. </p>
+        </div>
+        <div class="Text3">
+          <div class="Center"><h1>ტროლები და ბოტები</h1></div>
+          <p class="textp">ტროლი არის პიროვნება რომელიც ონლიან სივრცეში რეალური იდენტობის მითითების გარეშე მოქმედებს, რათა სხვადასხვა ვებ გვერდებზე მომხმარებელთა შორის დისკუსიას ხელი შეუშალოს.ისინი გამოირჩევიან ვებ გვერდების კომენტარების სექციაში აგრესიული და არათემატური კომენტარების წერით რათა მომხმარებლის ემოციური პროვოცირება მოახდინონ.ტროლის მთავარი და ყველაზე მნიშვნელოვანი მახასიათებელი მისი რეალური იდენტობის დამალვაა. ონლაინ სივრცეში ის ყალბი პროფილის მეშვეობით მოქმედებს, სადაც მის შესახებ არსებული ინფორმაცია ან გაყალბებულია, ან საერთოდ არ არის ასახული. ეს შეიძლება იყოს ფოტოები, საკონტაქტო ინფორმაცია, მონაცემები განათლებისა და სამუშაო ადგილის, ასევე ჰობის და ინტერესების შესახებ.ქსელში არსებული ავტომატიზირებული პროფილია, რომელსაც რეალური პიროვნების პროფილისთვის მიმსგავსებული მახასიათებლები აქვს. <br> ბოტებს იყენებენ, როდესაც დამკვეთს სურს:
+
+            ტრენდული ჰეშთეგის ან ფრაზის შექმნა;
+            კონკრეტული გზავნილის გავრცელება და მხარდაჭერა;
+            სხვა მომხმარებლის შევიწროვება და დისკრედიტაცია;
+            ხელოვნური “მოწონებების” (Like-ების) და გამომწერების (Follower-ების) ზრდა.
+            </p>
+        </div>
+      </div>
+      <div class="Info3">
+        <div class="Text3" >
+          <div class="Center"><h1>პროპაგანდა</h1></div>
+          <p class="textp">პროპაგანდა არის კომუნიკაციის ფორმა, რომელიც ფაქტებს არჩევითად ან გაყალბებით და სპეციალურად პროპაგანდისტისთვის სასურველი შედეგის მიღებას და საზოგადოებრივ აზრზე გავლენის მოხდენას ისახავს მიზნად.ამისგან განსხვავებით დარწმუნების მეთოდი უფრო ინტერაქტიულია და ცდილობს ორივე მხარის როგორც მოსაუბრის ასევე სამიზნე ჯგუფის ინტერესი დააკმაყოფილოს.</p>
+      </div>
+
+      <div class="Text4">
+        <div class="Center"><h1>მედიის როლი და ფუნქციები</h1></div>
+        <p class="textp">შეიძლება გამოიყოს შვიდი ძირითადი ფუნქცია, რომელთაგან მათი ძირითადი ნაწილი საკვანძოა,ნაწილი კი მოიცავს გასართობ ფუნქციებს, სხვადასხვა სერვისების მიღებას:ინფორმირება,მოქალაქეების უზრუნველყოფა ჭეშმარიტი ინფორმაციით,ცოდნა (იმ ინფორმაციის ახსნა რასაც აწვდის საზოგადოებას რადგან მიიღოს ცოდნა.)</p>
+      </div>
+    </div>
+    </section>
+    <div class="dashdborder">
+
+    </div>
+    <section class="BottomTitle">
+      <div>
+        <h1>პარალელები ანიმაციებიდან</h1>
+      </div>
+    </section>
+    <aside class="Bottom1">
+      <!-- <h1>რალფი კიბერ ბულინგის მსხვერპლია</h1>
+      <div class="Video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iA5uT_SBcvA?si=FTY5jX0fNi6P4WZp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="borderbox"><div class="border"></div></div>
+      <div class="Text">
+        <div><p>ვიდეო რგოლი რომელიც ბავშვებს დაეხმარებათ ისწავლონ მედია წიგნიერება</p></div>
+      </div> -->
+      <div class="animation">
+        <div id="title1">
+          <h1>ემოცია და მიზანი</h1>
+        </div>
+
+        <div id="video1">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/OYj_hKIktcg?si=2gTlzbPcUx17leKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+        <div id="text1">
+          <p>ომის დროს ეს მულტფილმი იწყება იმის ახსნით, რომ ყველას აქვს ორი რამ რაც მართავს მის აზრებსა და მოქმედებებს: მიზეზი და ემოცია. მაშინ, როცა მიზეზი მოდის, ვიწყებთ ორჯერ ფიქრს ჩვენს ქმედებებზე. ემოცია გამოსახულია როგორც გამოქვაბულის ადამიანი, ხოლო მიზეზი არის გონიერი ადამიანი, რომელსაც აცვია კოსტუმი და სათვალე. ისინი ჩხუბობენ იმაზე, თუ ვინ აკონტროლებს მძღოლის ადგილს ყველას ტვინში. ანიმაცია აღგვიწერს რომ ჰიტლერის ძალა მოდის გერმანელი ხალხის შიშის, თანაგრძნობის, სიამაყისა და სიძულვილის მეშვეობით მანიპულირების შედეგად. ამ მულტფილმს ორი შეტყობინება აქვს. ის რომ მტრეიც ადამიანები არიან, რომელნიც ასევე თავისებურად მსხვერპლნი არიან. მეორე მესიჯი იყო ის, რომ ჩვენ არ უნდა მივცეთ საშუალება, საკუთარ ემოციებს გვაკონტროლონ და ამის შედეგად მივიღოთ ნაჩქარევი გადაწყვეტილებები, თუნდაც ჩვენი შიშის გამო.</p>
+        </div>
+
+      </div>
+
+      <div class="animation">
+        <div id="title2">
+          <h1>იხვი დონალდი და ნაციზმი</h1>
+        </div>
+
+        <div id="video2">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/L90smU0SOcQ?si=07drM0EzQgQcF6fZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        </div>
+
+        <div id="text2">
+          <p>მეორე მსოფლიო ომის დროს უოლტ დისნეის აშშ-სა და კანადის მთავრობებმა დაავალეს ომის პროპაგანდის შექმნა ომის ობლიგაციებისა და გადასახადებისთვის. უოლტ დისნეი და მთავრობა შეთანხმდნენ, რომ ორივე ჰიტლერის წინააღმდეგი იყო. თუმცა, თავის დროზე, დისნეიმ შექმნა ომის საწინააღმდეგო მულტფილმები, ისევე როგორც ჰუმანიტარული გზავნილები ამერიკელი აუდიტორიისთვის, რათა გაევრცელებინა მესიჯი, რომ საჭირო იყო ემპათიით მისდგომოდნენ  თავიანთ მტრებს, რომლებიც, ბოლოს და ბოლოს, ადამიანები იყვნენ. Der Fuehrer's Face-მა მიიღო ოსკარი საუკეთესო მოკლემეტრაჟიანი ანიმაციისთვის 1943 წელს. სიუჟეტი გარშემორტყმულია დონალდ დაკზე, რომელიც იღვიძებს ნაცისტების მიერ კონტროლირებად სამყაროში. ის თავის დღეს იწყებს ნაცისტური ფორმის ჩაცმით. დონალდ დაკი მიდის ქარხანაში სამუშაოდ, სადაც ის მუდმივი მეთვალყურეობის ქვეშ იმყოფება, რათა დარწმუნდნენ, რომ საკმარისად ამბობს „ჰაილ ჰიტლერს“ და არასდროს ლაპარაკობს თავის ჩვეულ უკმაყოფილებაზე. იარაღს უმიზნებენ თავში, როცა ის ხაზს ტოვებს და კანკალებს და ამბობს: „ჰაილ ჰიტლერ“. დონალდი იქცევა არაადეკვატურად ზეწოლის ქვეშ, მაგრამ ბოლოს ის იღვიძებს შეერთებულ შტატებში და ხვდება, რომ ეს ყველაფერი სიზმარი იყო. მას უხარია აშშ-ს მოქალაქეობის პრივილეგია.</p>
+        </div>
+      </div>
+    </aside>
+
+    <aside class="Bottom">
+
+      <div class="animation">
+        <div id="title3">
+          <h1>მედია წიგნიერება ჩვენს ცხოვრებაში</h1>
+        </div>
+
+        <div id="video3">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/jZW4GexmPNg?si=ZhxLFokfyXT3TJoJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div id="text3">
+          <p>ვიდეო რომელიც არის შექმნილი ჩვენ მიერ,კარგად არი წარმოჩენილი ამ ვიდეოში მედიის წიგნიერების განვითარება,ახსნილი არის კარგად რომ მარტივად აღიქვას მოსწავლემ.</p>
+        </div>
+      </div>
+      </div>
+      <div class="animation">
+        <div id="title4">
+          <h1>რალფი და კიბერბულინგი</h1>
+        </div>
+
+        <div id="video4">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/iA5uT_SBcvA?si=U18jOjpPiYzZ853M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div id="text4">
+          <p>ანიმაციაში, ,,რალფი ინტერნეტს არღვევს'' კარგად არის წარმოჩენილი კიბერბულინგის საკითხი და მისი გავლენა ადამიანის ფსიქიკაზე. როდესაც რალფი ინტერნეტში შემოდის, დგება ისეთ სიტუაციაში, რომელიც უნებლიედ თუ ნებიერად, ხსნის ნიღაბს ინტერნეტის კომენტატორებს, უსახური ტროლინგისთვის.</p>
+        </div>
+      </div>
+    </aside>
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="firbase.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
